@@ -1,115 +1,139 @@
 * {
-    margin: 0;
-    font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
-
 
 /* ********* banner section here *****************  */
 
 .header-items {
-    background-image: url(images/donation13.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    color: #ffffff;
+  background-image: url(images/donation13.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
 }
 
 .banner-description {
-    width: 65%;
-    margin: 0 auto;
-    padding: 9rem;
+  width: 65%;
+  margin: 0 auto;
+  padding: 9rem;
 }
 
 .banner-description h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .banner-description p {
-    margin: 25px 0;
+  margin: 25px 0;
 }
 
 .banner-description a {
-    margin: 25px 0;
-    color: #ffffff;
-    text-decoration: none;
-    display: inline-block;
-    background-color: tomato;
-    padding: 10px 25px;
-    border-radius: 5px;
+  margin: 25px 0;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  background-color: tomato;
+  padding: 10px 25px;
+  border-radius: 5px;
 }
-
 
 /* ******* container section  start ************** */
 
 .container-area {
-    width: 75%;
-    margin: auto;
+  width: 75%;
+  margin: auto;
 }
 
 .donate-heading {
-    text-align: center;
+  text-align: center;
 }
 
 .donate-heading h2 {
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 .donate-heading p {
-    padding: 1rem 5rem;
-    margin-bottom: 3rem;
+  padding: 1rem 5rem;
+  margin-bottom: 3rem;
 }
 
 .donation-amount {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
 }
 
 .single-donate {
-    width: 15%;
-    background-color: rgb(212, 212, 212);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2.5rem 0;
-    border-radius: 5px;
-    margin: 0 5px;
+  width: 15%;
+  background-color: rgb(212, 212, 212);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 0;
+  border-radius: 5px;
+  margin: 0 5px;
 }
 
 #single-amount {
-    background-color: rgba(247, 173, 160, 0.555);
-    border: 3px solid tomato;
-    color: rgb(240, 74, 45);
+  background-color: rgba(247, 173, 160, 0.555);
+  border: 3px solid tomato;
+  color: rgb(240, 74, 45);
 }
 
 .donation-input {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 0;
 }
 
 .donation-input form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .donation-input input {
-    width: 50rem;
-    text-align: center;
-    font-size: 1.2rem;
-    border: none;
-    border-bottom: 1px solid darkgray;
+  width: 50rem;
+  text-align: center;
+  font-size: 1.2rem;
+  border: none;
+  border-bottom: 1px solid darkgray;
 }
 
 .donation-input form button {
-    width: 9rem;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    background-color: tomato;
-    color: #ffffff;
-    font-size: 1rem;
+  width: 9rem;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: tomato;
+  color: #ffffff;
+  font-size: 1rem;
+}
+.donate-plan {
+  width: 78%;
+  margin: 0 auto;
+}
+.donate-area {
+  margin-bottom: 3rem;
+}
+.donate-plan-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.single-donate-plan {
+  background-color: #edf5f6;
+  padding: 15px;
+  margin: 10px 10px;
+}
+.single-donate-plan h3 {
+  margin: 20px 0;
+}
+#donate-plan-2 {
+  background-color: #ffeeee;
+}
+#donate-plan-3 {
+  background-color: #fff4d6;
 }
