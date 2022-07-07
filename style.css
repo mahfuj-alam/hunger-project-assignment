@@ -137,3 +137,74 @@
 #donate-plan-3 {
   background-color: #fff4d6;
 }
+.extra-section {
+  width: 78%;
+  margin: 8rem auto;
+}
+.single-extra {
+  display: flex;
+}
+.extra-description {
+  width: 50%;
+}
+.extra-description p {
+  margin: 3rem 0;
+}
+.extra-description a {
+  text-decoration: none;
+  background-color: tomato;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.extra-img {
+  width: 50%;
+}
+.extra-img img {
+  width: 100%;
+  border-radius: 5px;
+  margin: 0 1rem;
+}
+#single-extra-two {
+  margin: 8rem 0;
+}
+#extra-description-two {
+  margin-left: 3rem;
+}
+.get-updates {
+  width: 75%;
+  margin: 0 auto;
+}
+.updates-heading {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 0 3rem;
+}
+.subscription-form {
+  margin: 4rem 0;
+  background-color: #fff4d6;
+  padding: 3rem;
+}
+.subscription-form input {
+  border: none;
+  width: 20rem;
+  padding: 10px;
+  background-color: rgba(230, 228, 228, 0.651);
+}
+.subscription-form button {
+  border: none;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 6px 25px 8px 25px;
+  background-color: tomato;
+  font-size: 1rem;
+  color: #ffffff;
+}
+footer {
+  margin-top: 8rem;
+  text-align: center;
+  min-height: 5rem;
+  background-color: black;
+  color: #ffffff;
+  padding: 25px 0;
+}
